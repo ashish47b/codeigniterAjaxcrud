@@ -1,0 +1,74 @@
+/* Style for form inputs */
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for items list */
+#itemsList {
+    margin-top: 20px;
+    text-align: center;
+    /* Center-align the items list */
+}
+
+#itemsList div {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    display: inline-block;
+    /* Display items horizontally */
+    text-align: left;
+    /* Reset text alignment for individual items */
+}
+
+#itemsList div strong {
+    color: #007bff;
+}
+
+ table {
+     border-collapse: collapse;
+     width: 100%;
+ }
+
+ th,
+ td {
+     border: 1px solid #dddddd;
+     text-align: left;
+     padding: 8px;
+ }
+
+ th {
+     background-color: #f2f2f2;
+ }
+
+ .action-buttons button {
+     margin-right: 5px;
+ }
