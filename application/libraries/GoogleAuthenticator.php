@@ -8,7 +8,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php BSD License
  *
  * @link http://www.phpgangsta.de/
- */ 
+ */  
 class PHPGangsta_GoogleAuthenticator
 {
     protected $_codeLength = 6;

@@ -83,7 +83,7 @@ public function register() {
 public function verify_otp() {
     $otp = $this->input->post('otp');
     $userId = $this->input->post('user_id');
-
+ 
     require_once(APPPATH . 'libraries/GoogleAuthenticator.php');
     $ga = new PHPGangsta_GoogleAuthenticator();
 

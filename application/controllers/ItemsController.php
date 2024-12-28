@@ -19,7 +19,7 @@ class ItemsController extends CI_Controller {
     
     public function createItem() { 
           echo "<pre>"; 
-
+ 
         $uploaded_files = array();
         $errors = array();
         if(isset($_FILES['images']) && !empty($_FILES['images'])) {

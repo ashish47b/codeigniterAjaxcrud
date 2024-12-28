@@ -8,7 +8,7 @@ class GoogleTOT extends CI_Controller {
         $this->load->helper(array('form', 'url'));
         $this->load->model('ItemModel');
     }
-     
+       
    public function index() { 
     require_once(APPPATH . 'libraries/GoogleAuthenticator.php');
     $ga = new PHPGangsta_GoogleAuthenticator();
