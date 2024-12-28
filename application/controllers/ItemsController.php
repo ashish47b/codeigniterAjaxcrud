@@ -15,7 +15,7 @@ class ItemsController extends CI_Controller {
     public function getItems() { 
         $items = $this->ItemModel->getItems();
          echo json_encode($items);
-    }
+    } 
     
     public function createItem() { 
           echo "<pre>"; 
